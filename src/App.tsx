@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Timer } from './components/Timer/index';
+import { GlobalStyle } from './styles/global';
 
 function App() {
+
   return (
     <div className="App">
-      Qualquer coisa
+      <Timer />
+      <GlobalStyle />
     </div>
   );
 }
